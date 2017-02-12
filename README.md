@@ -33,4 +33,4 @@ module.exports = (api, metrics) => {
 https://github.com/evanx/geo-cache
 
 <hr>
-By https://twitter.com/@evanxsummers
+https://twitter.com/@evanxsummers
