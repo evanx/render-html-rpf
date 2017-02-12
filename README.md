@@ -1,6 +1,6 @@
 # render-html-rpf
 
-Basic HTML rendering library
+Basic HTML rendering library.
 
 Named in honour of https://en.wikipedia.org/wiki/Richard_Feynman
 
@@ -13,7 +13,7 @@ const h = require('render-html-rpf');
 
 module.exports = (api, metrics) => {
    api.get('/metrics', async ctx => {       
-       if (!/(Mobile)/.test(ctx.get('user-agent'))) {
+       if (/(Mobile)/.test(ctx.get('user-agent'))) {
            h.page(ctx, {
                title: 'gcache',
                heading: 'Metrics',

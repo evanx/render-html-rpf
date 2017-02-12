@@ -52,7 +52,7 @@ const h = {
             `Powered by`,
             h.element('a', {
                 href: page.footerLink,
-                style: "color: #777; text-decoration: none"
+                style: "color: #777; text-decoration: none; display: block; margin-top: 1em"
             }, page.footerLink),
             `</footer>`,
             `</body>`,
