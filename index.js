@@ -47,12 +47,13 @@ const h = {
             `<body>`,
             `<h1>${page.heading}</h1>`,
             page.content.map(h.render),
+            `<br>`,
             `<hr>`,
             `<footer style="font-size: 11pt; color: #777">`,
             `Powered by`,
             h.element('a', {
                 href: page.footerLink,
-                style: "color: #777; text-decoration: none; display: block; margin-top: 1em"
+                style: "color: #777; text-decoration: none"
             }, page.footerLink),
             `</footer>`,
             `</body>`,
