@@ -1,6 +1,6 @@
 {
   "name": "render-html-rpf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Basic HTML rendering library.",
   "main": "index.js",
   "scripts": {
